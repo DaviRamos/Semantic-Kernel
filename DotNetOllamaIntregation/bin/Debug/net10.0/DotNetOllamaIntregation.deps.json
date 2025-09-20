@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "DotNetOllamaIntregation/1.0.0": {
+        "dependencies": {
+          "OllamaSharp": "5.4.5"
+        },
+        "runtime": {
+          "DotNetOllamaIntregation.dll": {}
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions/9.9.0": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "assemblyVersion": "9.9.0.0",
+            "fileVersion": "9.900.25.45804"
+          }
+        }
+      },
+      "OllamaSharp/5.4.5": {
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "9.9.0"
+        },
+        "runtime": {
+          "lib/net9.0/OllamaSharp.dll": {
+            "assemblyVersion": "5.4.5.0",
+            "fileVersion": "5.4.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetOllamaIntregation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.AI.Abstractions/9.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wzE8iwSl/I+oHf4hgMhwTL+6kOYqFaAGIUt1gp9SrYUgTs48KrDbgJMtL4jbuYt6gFLXXOMcVSiGNqHEdyLoBg==",
+      "path": "microsoft.extensions.ai.abstractions/9.9.0",
+      "hashPath": "microsoft.extensions.ai.abstractions.9.9.0.nupkg.sha512"
+    },
+    "OllamaSharp/5.4.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FFmn3PxemQZQZdMMXLwBoFE8PXoKObgbORvbWSoml5hlViVel/pJ+YzoM54argAQiGt2kOm/6dKfFZCY4VGeDw==",
+      "path": "ollamasharp/5.4.5",
+      "hashPath": "ollamasharp.5.4.5.nupkg.sha512"
+    }
+  }
+}
